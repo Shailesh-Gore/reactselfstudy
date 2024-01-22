@@ -1,0 +1,35 @@
+{
+  "name": "selflearning",
+  "version": "1.0.0",
+  "description": "reactjs by shailesh",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shailesh-Gore/reactselfstudy.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "shailesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shailesh-Gore/reactselfstudy/issues"
+  },
+  "homepage": "https://github.com/Shailesh-Gore/reactselfstudy#readme",
+  "devDependencies": {
+    "parcel": "^2.10.3",
+    "process": "^0.11.10",
+    "react-router-dom": "^6.21.1"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}

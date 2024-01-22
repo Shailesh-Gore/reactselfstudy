@@ -1,6 +1,33 @@
-#heading {
+/* #heading {
   font-style: italic;
+  color: blue;
 }
 .mainHeading {
   color: red;
+} */
+
+.container {
+  background-color: aliceblue;
+  display: flex;
+  padding: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo > img {
+  width: 100px;
+  border-radius: 50%;
+  box-shadow: 2px 5px 23px 3px;
+}
+
+.search-bar > input {
+  width: 390px;
+  height: 30px;
+  outline: none;
+  border: none;
+  border-radius: 23px;
+  padding: 10px;
+}
+
+.user-icon > img {
+  width: 70px;
 }
